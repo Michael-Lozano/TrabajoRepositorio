@@ -9,7 +9,7 @@ html {
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('/Index/fonts/coolvetica/SimpleHandmade.otf') format('truetype');
+    src: url('/fonts/coolvetica/SimpleHandmade.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
