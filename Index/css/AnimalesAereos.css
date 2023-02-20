@@ -9,7 +9,7 @@ html {
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('/fonts/coolvetica/SimpleHandmade.otf') format('truetype');
+    src: url('/Index/fonts/coolvetica/SimpleHandmade.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
@@ -69,7 +69,7 @@ html {
 section {
     text-align: left;
     margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 0%;
     display: flex;
     width: 100%;
     height: 450px;
@@ -82,12 +82,13 @@ section img {
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
+    margin-left: 2%;
 
 }
 
 section img:hover{
     cursor:  crosshair;
-    width: 300px;
+    width: 180px;
     opacity: 1;
     filter: contrast(120%);
 }
@@ -95,12 +96,59 @@ section img:hover{
 .text_aves{
 
     margin-top: -15%;
-    margin-left: 60%;
+    margin-left: 67%;
     font-family: OpenSans;
     font-size: large;
 
 }
 
+/* FORMULARIO */
+
+.TextFormulario{
+    text-align: center;
+    font-family: OpenSans;
+    }
+
+.Nombre {
+    margin: 2%;
+    text-align: center;
+    font-family: OpenSans;
+}
+
+.Color{
+    margin: 2%;
+    text-align: center;
+    font-family: OpenSans;
+}
+
+.Edad{
+    margin: 2%;
+    text-align: center;
+    font-family: OpenSans;
+}
+
+.Alimento{
+    margin: 2%;
+    text-align: center;
+    font-family: OpenSans;
+}
+
+.Datos{
+    text-align: center;
+}
+
+.Resultado{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Button{
+    text-align: center;
+    border:#888888 1px solid;
+    border-radius: 7px;
+    font-family: OpenSans;
+    padding: 7px;
+}
 
 /* Footer */
 
