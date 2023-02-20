@@ -1,0 +1,151 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/coolvetica/SimpleHandmade.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.MenuLogo{
+
+    list-style: none;
+
+}
+
+#ImgLogo{
+
+    width: 12%;
+
+}
+
+.MenuText{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 2%;
+    margin-top: -7%;
+    font-family: OpenSans;
+    font-size: x-large;
+
+}
+
+.MenuTextAD{
+
+    color: #ff9801;
+    text-decoration: none;
+
+}
+
+.MenuTextAS{
+
+    color: #ea1e63;
+    text-decoration: none;
+
+}
+
+.MenuTextAA{
+
+    color: #4db7ad;
+    text-decoration: none;
+
+}
+
+.MenuTextAAE{
+
+    color: #7db343;
+    text-decoration:underline;
+
+}
+
+section {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 2%;
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+section img {
+
+    width: 10%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+
+section img:hover{
+    cursor:  crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.text_aves{
+
+    margin-top: -15%;
+    margin-left: 60%;
+    font-family: OpenSans;
+    font-size: large;
+
+}
+
+
+/* Footer */
+
+
+
+
+
+footer {
+
+    margin-top:50px;
+    color: white;
+    background-color: #1A1A1A;
+    width: 100%;
+    height:200px;
+    position: absolute;
+    bottom: 1;
+}
+
+
+.text_Logo{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: OpenSans;
+    font-size: xx-large;
+
+}
+
+.text_Part{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: OpenSans;
+    font-size: x-large;
+    display: 3%;
+    
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: OpenSans;
+    font-size: x-large;
+    margin-top: 3%;
+}
