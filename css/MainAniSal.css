@@ -1,0 +1,216 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/coolvetica/SimpleHandmade.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.MenuLogo{
+
+    list-style: none;
+
+}
+
+#ImgLogo{
+
+    width: 12%;
+
+}
+
+.MenuText{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 2%;
+    margin-top: -7%;
+    font-family: OpenSans;
+    font-size: x-large;
+
+}
+
+.MenuTextAD{
+
+    color: #ff9801;
+    text-decoration: none;
+
+}
+
+.MenuTextAS{
+
+    color: #ea1e63;
+    text-decoration: underline;
+
+}
+
+.MenuTextAA{
+
+    color: #4db7ad;
+    text-decoration: none;
+
+}
+
+.MenuTextAAE{
+
+    color: #7db343;
+    text-decoration: none;
+
+}
+
+.Carrusel{
+
+    margin-top: 5%;
+
+}
+
+/* Footer */
+
+
+
+
+
+footer {
+
+    margin-top:50px;
+    color: white;
+    background-color: #1A1A1A;
+    width: 100%;
+    height:200px;
+    position: absolute;
+    bottom: 1;
+}
+
+
+.text_Logo{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: OpenSans;
+    font-size: xx-large;
+
+}
+
+.text_Part{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: OpenSans;
+    font-size: x-large;
+    display: 3%;
+    
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: OpenSans;
+    font-size: x-large;
+    margin-top: 3%;
+}
+
+
+#con{
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-around;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Nc8hJEVDSKpsiRD0g_0MzTYtBmq-I7LTbA&usqp=CAU);
+}
+
+#enca{
+    text-align: center;
+    background-color: #bfdfca9f;
+    
+}
+
+.titulo1{
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+spam{
+    color: #000;
+    font-size:large;
+}
+
+.nav-item{
+text-align: center;
+}
+
+.carousel-inner{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    max-height: 39rem;
+}
+
+#divheader {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: -1.5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9bd3ae;
+}
+
+#intro{
+    margin-top: 2%;
+    background-color: rgba(200, 230, 196, 0.596);
+}
+
+.news {
+    background-color: #fff;
+    padding-top: 2%;
+}
+
+.news .titlepage h2 {
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    border-bottom: #51965c solid 5px;
+}
+
+.card{
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+.card-img-top{
+    width: 10%;
+    height: 10%;
+    background-size: cover;
+    
+}
+
+#video{
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 50%;
+}
+
+#aler{
+    margin-top: 15%;
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 120%;
+    text-align: center;
+    height: 50%;
+    
+}
+
+#viul{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Nc8hJEVDSKpsiRD0g_0MzTYtBmq-I7LTbA&usqp=CAU);
+}
+
